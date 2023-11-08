@@ -36,7 +36,7 @@ let renderArray = function(tab, w)
    // document.querySelector('#content').innerHTML += "<br><br>";
 }
 
-let switchOnCell = function(value){
+let litCell = function(value){
     let numbers = document.querySelectorAll(".arrayValue");
     numbers.forEach( nb =>  {
         if (nb.textContent==value) nb.classList.add("lighted");
